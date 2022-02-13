@@ -873,6 +873,11 @@
         <translation>Visa mätningar</translation>
     </message>
     <message>
+        <location filename="../src/mainwindow.cpp" line="426"/>
+        <source>&lt;p&gt;Open source software for Hantek6022 USB oscilloscopes&lt;/p&gt;&lt;p&gt;Maintainer: Martin Homuth-Rosemann&lt;/p&gt;&lt;p&gt;Copyright &amp;copy; 2010, 2011 Oliver Haag&lt;/p&gt;&lt;p&gt;Copyright &amp;copy; 2012-2021 OpenHantek community&lt;br/&gt;&lt;a href=&apos;https://github.com/OpenHantek&apos;&gt;https://github.com/OpenHantek&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Open source firmware copyright &amp;copy; 2019-2021 Ho-Ro&lt;br/&gt;&lt;a href=&apos;https://github.com/Ho-Ro/Hantek6022API&apos;&gt;https://github.com/Ho-Ro/Hantek6022API&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Device: %1 (%2), FW%3&lt;/p&gt;&lt;p&gt;Graphic: %4 - GLSL version %5&lt;/p&gt;&lt;p&gt;Qt version: %6&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Öppen programvara för Hantek6022 USB-oscilloskop&lt;/p&gt;&lt;p&gt;Upphovsman: Martin Homuth-Rosemann&lt;/p&gt;&lt;p&gt;Copyright &amp;copy; 2010, 2011 Oliver Haag&lt;/p&gt;&lt;p&gt;Copyright &amp;copy; 2012-2021 OpenHantek-gemenskapen&lt;br/&gt;&lt;a href=&apos;https://github.com/OpenHantek&apos;&gt;https://github.com/OpenHantek&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Öppen fastprogramvara copyright &amp;copy; 2019-2021 Ho-Ro&lt;br/&gt;&lt;a href=&apos;https://github.com/Ho-Ro/Hantek6022API&apos;&gt;https://github.com/Ho-Ro/Hantek6022API&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Enhet: %1 (%2), FW%3&lt;/p&gt;&lt;p&gt;GRafik: %4 - GLSL version %5&lt;/p&gt;&lt;p&gt;Qt version: %6&lt;/p&gt;</translation>
+    </message>
+    <message>
         <location filename="../src/mainwindow.cpp" line="439"/>
         <source>&lt;p&gt;Running since %1 seconds.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Kör sedan %1 sekunder.&lt;/p&gt;</translation>
@@ -1338,6 +1343,79 @@
         <location filename="../src/docks/VoltageDock.cpp" line="64"/>
         <source>x</source>
         <translation>x</translation>
+    </message>
+</context>
+<context>
+    <name>main</name>
+    <message>
+        <location filename="../src/main.cpp" line="137"/>
+        <source>Demo mode without scope HW</source>
+        <translation>Demoläge utan oscilloskophårdvara</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="140"/>
+        <source>Use OpenGL ES instead of OpenGL</source>
+        <translation>Använd OpenGL ES istället för OpenGL</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="143"/>
+        <source>Force OpenGL SL version 1.20</source>
+        <translation>Tvinga OpenGL version 1.20</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="146"/>
+        <source>Force OpenGL SL version 1.50</source>
+        <translation>Tvinga OpenGL SL versoin 1.50</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="149"/>
+        <source>Show the international interface, do not translate</source>
+        <translation>Visa det internationella gränssnittet, översätt inte</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="152"/>
+        <source>Define the system font</source>
+        <translation>Definiera systemfonten</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="153"/>
+        <source>Font</source>
+        <translation>Typsnitt</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="156"/>
+        <source>Set the font size (default = %1, 0: automatic from dpi)</source>
+        <translation>Sätt typsnittsstorlek (standard = %1, 0: automatisk baserad på upplösning)</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="157"/>
+        <source>Size</source>
+        <translation>Storlek</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="160"/>
+        <source>Set the font condensed value (default = %1)</source>
+        <translation>Sätt komprimeringsvärde för typsnittet (standard = %1)</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="161"/>
+        <source>Condensed</source>
+        <translation>Kompression</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="164"/>
+        <source>Reset persistent settings, start with default</source>
+        <translation>Återställ persistenta inställningar, starta med standardvärden</translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="167"/>
+        <source>Verbose tracing of program startup, ui and processing steps</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../src/main.cpp" line="168"/>
+        <source>Level</source>
+        <translation>Nivå</translation>
     </message>
 </context>
 </TS>
